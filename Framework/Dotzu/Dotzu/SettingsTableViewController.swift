@@ -70,4 +70,6 @@ class SettingsTableViewController: UITableViewController {
         switchDisplayDate.isOn = LogsSettings.shared.date
         switchNetworkEnable.isOn = LogsSettings.shared.network
     }
+    
+    
 }
